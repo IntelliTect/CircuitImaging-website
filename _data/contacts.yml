@@ -1,0 +1,26 @@
+site:
+  name: CC&B Automation Services
+  phone: 509.315.3400
+  email: ccb@IntelliTect.com
+  twitter_username: IntelliTect
+  image: /img/profile-image.png
+  image_alt: "IntelliTect"
+  street: N/A
+  city: Spokane
+  state: WA
+  zip: 99019
+  country: United States
+
+shanekercheval:
+  name: Shane Kerheval
+  phone: 646.543.9259
+  email: shane@IntelliTect.com
+  twitter_username: shanekercheval
+  image: ../img/profile-image.png
+  image_alt: "IntelliTect"
+  bio: CC&B Automation Solutions are provided by IntelliTect. IntelliTect has spent the last several years in the utility industry and works directly with utilities to understand their exact and differing needs. We pride ourselves on quality, and we have a strong passion for our work.
+  street: N/A
+  city: Spokane Valley
+  state: WA
+  zip: 99019
+  country: United States

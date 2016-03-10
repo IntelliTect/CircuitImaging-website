@@ -1,0 +1,23 @@
+# Site settings
+title: CC&B Automation Solutions
+owner: IntelliTect
+description: > # this means to ignore newlines
+    Take Your CC&B Implementation to the Next Level with Automation
+#baseurl: "/ccbautomation-website" # the subpath of your site, e.g. /blog
+#url: "127.0.0.1"
+url: "http://ccbautomation.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# http://jekyllrb.com/docs/configuration/#front-matter-defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: post
+      author: IntelliTect
+      comments: true

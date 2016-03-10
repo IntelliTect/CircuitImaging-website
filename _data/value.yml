@@ -1,0 +1,100 @@
+intro:
+    header: Take Your CC&B Implementation to the Next Level with Automation
+    description: Oracle’s Customer Care and Billing System plays a critical role in the business operations of many utility companies. CC&B, while very powerful, can be costly and difficult to manage and maintain. We provide testing and application lifecycle management (ALM) solutions designed for CC&B. Through automation, these solutions dramatically increase the reliability of the system while simultaneously increasing the ease of lifecycle management and maintenance.
+
+offerings-top-x-limit: 4
+
+offerings:
+  - name: CC&B Test
+    elevator-pitch: Our Test solution increases the reliability and maintainability of CC&B by providing you with a suite of automated regression testing tools.
+    link: /test/
+    #main-image: /img/solutions/comparison.png 
+    image1: /img/solutions/before_after.png
+    image2: /img/solutions/test_harness_TestRunning.png
+    value:
+      - title: Increase System Reliability
+        description: Automated testing significantly decreases the risk of system-level and catastrophic failures due to a lack of regression testing.
+        icon: icon-shield
+      - title: Automated Testing Built for CC&B
+        description: Design and execute CC&B automated test cases using tools specially designed for CC&B, allowing more control and flexibility over your tests.
+        icon: icon-cog
+      - title: Design Meaningful Tests
+        description: Our automated testing framework was designed based on real-world business requirements, enabling you to develop tests that meet your specific needs.
+        icon: icon-wrench
+      - title: Focused Tooling
+        description: Standard testing frameworks, such as HP UFT or Selenium, aren’t designed for CC&B and are difficult to implement and automate.
+        icon: icon-target
+      - title: Reduce Time for Creating Tests
+        description: We provide an infrastructure that significantly decreases the amount of time and effort required for creating and maintaining automated unit tests.
+        icon: icon-stopwatch
+      - title: Increase Test Reliability
+        description: Our test harness significantly increases the reliability of tests. Generic testing tools are not designed for CC&B and produce tests are often brittle and unreliable.
+        icon: icon-power
+      - title: Reduce the Expertise Required
+        description: Our infrastructure reduces the software development expertise required for creating and running automated tests. SDETs can spend more time testing.
+        icon: icon-user
+      - title: Built on Industry Standard Tooling
+        description: Our test harness is built on the proven and open-source Selenium automation testing framework.
+        icon: icon-trophy
+
+  - name: CC&B ALM
+    elevator-pitch: Our ALM solution gives you full control over your CC&B development and deployment processes across multiple environments.
+    link: /alm/
+    image1: /img/solutions/build-succeeded.png
+    image2: /img/solutions/build-log.png
+    value:
+      - title: Automated Deployment
+        description: Our solution allows you to automate your deployment process with a single command and is flexible enough to handle complex and custom deployment needs.
+        icon: icon-loop2
+      - title: Source Control
+        description: Our proprietary source control process allows your company to manage changes to your CC&B implementation, including version control and history.
+        icon: icon-tree
+      - title: Track Requirements
+        description: Easily associate changes in the system to work items (i.e. tasks). This association allows your company to track details about each change.
+        icon: icon-link
+      - title: Comply with auditing requirements
+        description: Our ALM solution helps to provide internal controls and reporting methods required by Sarbanes-Oxley and other auditing demands.
+        icon: icon-checkbox-checked
+      - title: Continuous Integration
+        description: Configure your CC&B to automatically build development and test environments when code is checked in, either daily or on-demand.
+        icon: icon-spinner10
+      - title: Promotion Environments
+        description: Our ALM solution manages the promotion of changes through your various test and development environments.
+        icon: icon-upload
+      - title: Trialing & Dry Runs
+        description: This feature lets you run 'what if' scenarios, enabling you to assess the impact of changes made to various environments before the changes are committed.
+        icon: icon-loop
+      - title: Backups
+        description: Before any deployment, a file system backup will execute automatically, and all change history will be stored on the CC&B system as an audit trail.
+        icon: icon-power
+testimonials:
+  - name: Heidi Smith
+    position: Test Manager
+    company: Avista Utilities / IntelliTect
+    testimonial: Using the automated CC&B build process, I would estimate that I have deployed code no less than a thousand times. It's a reliable and dependable process you can count on. 
+  - name: Timothy Weston
+    position: SDET
+    company: Avista Utilities / IntelliTect
+    testimonial: The CC&B Test Harness allows me to write clear and straightforward automated tests that are reliable and easy to modify.  I never have to worry about the right data being present, regardless of which environment I'm testing against. 
+#  - name: Sohail Mohammed
+#    position: Oracle CC&B/MDM/OUA Technical Architect
+#    company: Avista Utilities
+#    testimonial: It definitely saves time and increases the accuracy in terms of migration.
+
+faqs:
+  - question: Do these solutions handle customized CC&B instances?
+    answer: Yes. Depending on the particular customizations of the CC&B instance, our CC&B solutions can be extended if needed.
+  - question: Do these solutions handle large server farms?
+    answer: Yes.
+  - question: Which browsers are supported by CC&B Test Harness?
+    answer: CC&B Test Harness supports all major browsers- Internet Explorer, Firefox, Chrome, Safari, and Opera.  Headless browsers are also supported, including headless browsers with JavaScript support.  
+  - question: What is a headless browser?
+    answer: A headless browser is a web browser without a graphical user interface. Headless browsers enable faster execution of test cases because, while they emulate browser behavior, they do not take the time to render the browser to the screen.
+  - question: Does the CC&B Test Harness use test-driven data?
+    answer: The Test Harness supports three types of test data- hard-coded data, resource files or constants classes, and dynamic retrieval from the database.  Retrieving test data from the database at execution time via Linq to SQL increases the reliability of the test cases, regardless of the state of the data in any given test environment.  It ensures the tests will find account or other data that fits the exact prerequisites of each test case.  It also allows the tests themselves to modify data without having to reset it back to its original state.
+  - question: Why are CC&B Test Harness test cases easier to write?
+    answer: The most time-consuming part of automated browser testing is navigating through the various application elements.  With CC&B, the navigational difficulty is increased due to the multiple nested iFrames, various JavaScript events that change the flow of the UI, and cryptic naming conventions of the UI elements.  The CC&B Test Harness contains easy-to-use methods and classes that handle the navigation entirely.  These classes allow the test author to write short, simple lines of code.
+  - question: Why is the CC&B Test Harness superior to OATS?
+    answer: While the Oracle Application Testing Suite (OATS) tool thoroughly tests the CC&B API, it does not test the front-end.  No UI testing or browser rendering occurs with OATS.  When configuration changes are made to CC&B or periodic updates occur, being able to test the application in the way the user interacts with it is important.  The CC&B Test Harness, when using a standard browser, tests the application in the exact way a human would test it.
+  - question: What makes the CC&B Test Harness a better choice than other automated testing tools?
+    answer: It comes down to four things- browser compatibility, dynamic data retrieval, code simplicity, and execution reliability.  Often, “record and playback” automated testing scripts fail when run.  Failure can occur for many reasons, including- running tests against a database with different data, running against a different browser, running on a different machine with a slower network connection, and so on.  The CC&B Test Harness is designed to handle response and timing differences, browser quirks, and ever-changing data in the database.
