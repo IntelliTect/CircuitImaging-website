@@ -1,10 +1,10 @@
 site:
-  name: CC&B Automation Services
+  name: Circuit Imaging
   phone: 509.315.3400
-  email: ccb@IntelliTect.com
+  email: mark@CircuitImaging.com.com
   twitter_username: IntelliTect
   image: /img/profile-image.png
-  image_alt: "IntelliTect"
+  image_alt: "Circuit Imaging"
   street: N/A
   city: Spokane
   state: WA
@@ -13,7 +13,7 @@ site:
 
 shanekercheval:
   name: Shane Kerheval
-  phone: 646.543.9259
+  phone: 555-555-5555
   email: shane@IntelliTect.com
   twitter_username: shanekercheval
   image: ../img/profile-image.png

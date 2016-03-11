@@ -1,11 +1,11 @@
 # Site settings
-title: CC&B Automation Solutions
-owner: IntelliTect
+title: Circuit Imaging
+owner: Circuit Imaging
 description: > # this means to ignore newlines
-    Take Your CC&B Implementation to the Next Level with Automation
+    We make circuit imaging devices.
 #baseurl: "/ccbautomation-website" # the subpath of your site, e.g. /blog
 #url: "127.0.0.1"
-url: "http://ccbautomation.com" # the base hostname & protocol for your site
+url: "http://circuitimaging.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -19,5 +19,5 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: post
-      author: IntelliTect
+      author: Circuit Imaging
       comments: true
