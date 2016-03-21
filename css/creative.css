@@ -10,6 +10,11 @@
 	font-weight: 200;
   
 }
+
+.bggrey {
+background: #e8f1f0;
+}
+
  
  @media (min-width: 768px) {
 .navbar-default.affix {
