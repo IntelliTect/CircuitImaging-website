@@ -8,9 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="robots" content="noindex" />
-    <meta name="robots" content="nofollow" />
-    <meta name="robots" content="noarchive" />
     <meta name="google-site-verification" content="3Vtmv3dywHke9gslEwryOn49edXU0cqzFk9EddqFC08" />
     <meta name="msvalidate.01" content="8A05B17015D4526E343D9CC316D3AA0F" />
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
@@ -150,61 +147,8 @@ Circuit imaging performs solder mask at the same speed as copper imaging (2-4 se
 			</div>
 			</div>
         </div>
-    </section>
- 
-	  <section id="team" class="bggrey">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Meet the Leadership Team </h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                 
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                         <img alt="Mark Michaelis" src="img/markm.png" />
-                        <h3>Mark Michaelis</h3>
-						<p> Cheif Software Architect<br/>Microsoft Regional Director & MVP</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                         <img alt="John Michaelis" src="img/johnm.png" />
-                        <h3>John Michaelis</h3>
-						<p> Cheif Technical Officer</p>
-                    </div>
-                </div>
-				
-				<!--
-					 <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                         <img alt="Dan Gelbart" src="img/dang.png" />
-                        <h3>Dan Gelbart </h3>
-						<p>Chief Scientist & Engineer</p>
-                    </div>
-                </div>
-                -->
-				
-                <div class="col-lg-4 col-md-6 text-center">
-                    <div class="service-box">
-                         <img alt="Ben Joseph" src="img/benj.png" />
-                        <h3>Ben Joseph</h3>
-						<p>Principle Mechanical Engineer </p>
-                    </div>
-                </div>
-				
-			
-            </div>
-        </div>
-    </section>
- 
-	
-	
-	
+    </section>    
+    <div id="hidden"></div>
 	
 	
     <section class="bg-primary" id="patentcoverage">
@@ -321,7 +265,13 @@ Circuit imaging performs solder mask at the same speed as copper imaging (2-4 se
 
       ga('create', 'UA-178624-4', 'auto');
       ga('send', 'pageview');
+    
+    $.get(
+        "/hidden/hidden.html",
+        function(data){$('#hidden').html(data)}
+    );
     </script>
+
 
 </body>
 
